@@ -7,7 +7,7 @@ sendgrid.setApiKey( process.env.SENDGRID_API_KEY );
 exports.send = async ( to, subject, body ) => {
     sendgrid.send({
         to : to,
-        from : 'lucasdominato2@gmail.com',
+        from : 'youremail@gmail.com',
         subject : subject,
         html: body
     });
